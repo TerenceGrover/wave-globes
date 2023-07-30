@@ -1,5 +1,5 @@
-let circles = 5;
-let points = 3550;
+const circles = 5;
+const points = 3550;
 let x, y;
 
 function setup() {
@@ -27,7 +27,7 @@ function draw() {
   background(0);
   noFill();
   stroke(255);
-  strokeWeight(1);
+  strokeWeight(0.3);
   translate(width / 2, height / 2);
   let t = frameCount / 100;
 
